@@ -1,0 +1,99 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #424242;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: linear-gradient(135deg, #00ff22, aqua);
+    color: rgb(0, 0, 0);
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  /* Seções */
+  section {
+    padding: 40px 20px;
+    background: #333;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    color: #f0f0f0;
+  }
+  
+  section h2 {
+    text-align: center;
+    color: #00ff15;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  
+  section ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Links */
+  a {
+    color: #00ff15;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: aqua;
+  }
+  
+  /* Botão */
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background: #00ff15;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: aqua;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #00ff22, #00ffbf);
+    color: rgb(0, 0, 0);
+  }  
